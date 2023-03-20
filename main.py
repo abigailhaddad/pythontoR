@@ -67,7 +67,7 @@ def genDFOfNumeratorsAndDenominatorsR(max_denominator, min_denominator=0):
 
 def testBothFunctions(max_denominator=10):
     dfR= genDFOfNumeratorsAndDenominatorsR(max_denominator, min_denominator=0)
-    dfPython= genDFOfNumeratorsAndDenominatorsR(max_denominator, min_denominator=0)
+    dfPython= genDFOfNumeratorsAndDenominatorsPython(max_denominator, min_denominator=0)
     return(dfR.equals(dfPython))
 
-print(testBothFunctions(max_denominator=10))
+print(testBothFunctions(10))
