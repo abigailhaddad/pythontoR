@@ -31,4 +31,6 @@ If you want to generate the dataframe using a different set of parameters, simpl
 
 The output of `testBothFunctions()` will be `True` if the two dataframes are the same, and `False` otherwise.
 
+However, as a note: this is 'False' currently even though df.compare will return an empty DataFrame - they look the same - because R is outputting the values as int32 and Python is outputting them as int64. 
+
 Note that the purpose of this code is not the actual functionality of generating the dataframe, but rather the framework for testing whether the R and Python code produce the same results. The code allows you to call R code from Python and compare the results, all from within a Python console.
