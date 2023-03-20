@@ -20,7 +20,7 @@ def genDFOfNumeratorsAndDenominatorsPython(max_denominator, min_denominator=0):
     
     Args:
         max_denominator: maximum possible denominator
-        min_denominator (optional - defaul is 0): minimum possible denominator
+        min_denominator (optional - default is 0): minimum possible denominator
         
     Returns:
         df: pandas df with all combinations of numerators and denominators
