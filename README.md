@@ -1,6 +1,6 @@
 # README
 
-This code is an example of how to use the `rpy2` library to call R code from Python and convert data between the two languages.
+This code is an example of how to use the `rpy2` library to call R code from Python and compare results between the two languages.
 
 ## Dependencies
 
